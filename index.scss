@@ -1,0 +1,22 @@
+#header {
+    display: flex;
+    flex-flow: row nowrap;
+
+    & > div {
+        margin: 0em 1em;
+
+        h1 {
+            margin: 0;
+            padding: 0;
+        }
+        h2 {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    & > nav {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+}
